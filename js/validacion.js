@@ -35,7 +35,7 @@ function comprobadorRegistros(){
     let comprobador = true;
     let todosLosDatos = false;
 
-    if(nombre != null || apellido != null || email != null || contr != null || contrRepetir != null ){
+    if(nombre.length != 0  && apellido.length != 0 &&  email.length != 0 &&  contr.length != 0 &&  contrRepetir.length != 0){
         todosLosDatos = true;
     }
 
